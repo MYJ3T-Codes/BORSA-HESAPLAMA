@@ -1,0 +1,6 @@
+hisse_kapanis_fiyat = float(input("hissenin son fiyatını giriniz:"))
+yüzde = int(input("hissenin yüzde kaç değişimini giriniz:"))
+hisse_yüzde_artis = hisse_kapanis_fiyat+((hisse_kapanis_fiyat*yüzde)/100)
+hisse_yüzde_azalis = hisse_kapanis_fiyat-((hisse_kapanis_fiyat*yüzde)/100)
+print("hisseniz yükselirse ise:",hisse_yüzde_artis)
+print("hisseniz azalır ise:",hisse_yüzde_azalis)
